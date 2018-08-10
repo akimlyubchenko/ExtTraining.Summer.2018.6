@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BinarySearchTree">
+      <HintPath>..\..\Training-Summer-Express-2018\NET.S.2018.Lyubchenko.16\BinarySearchTree\BinarySearchTree\bin\Debug\BinarySearchTree.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Set.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="No9.txt" />
